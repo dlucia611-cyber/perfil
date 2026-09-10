@@ -1,0 +1,362 @@
+html
+// filepath: c:\Users\ADMIN\Documents\HTML\perfil\index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perfil Profesional | Ana García</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="#inicio" aria-label="Ana García">
+        <span class="brand-logo">AG</span>
+        <span class="brand-text">Ana García</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#inicio" class="nav-link active">Inicio</a>
+        <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+        <a href="#experiencia" class="nav-link">Experiencia</a>
+        <a href="#proyectos" class="nav-link">Proyectos</a>
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </div>
+
+      <a class="btn btn-small btn-primary nav-cta" href="#contacto">Hablemos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-bg hero-bg-one"></div>
+      <div class="hero-bg hero-bg-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="section-kicker">Perfil profesional</span>
+          <h1>Transformo ideas en soluciones digitales.</h1>
+          <p class="hero-text">
+            Soy Ana García, diseñadora y desarrolladora digital con más de 6 años de experiencia
+            creando experiencias web funcionales, modernas y centradas en el usuario.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+            <a href="#contacto" class="btn btn-outline">Solicitar consultoría</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number" data-count="6">+6</span>
+              <span class="stat-label">años de experiencia</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="35">+35</span>
+              <span class="stat-label">proyectos entregados</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="14">+14</span>
+              <span class="stat-label">clientes satisfechos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap">
+          <div class="hero-image-card">
+            <img src="https://images.unsplash.com/photo-1508214751196-bc0cdd6dad92?auto=format&fit=crop&w=900&q=80" alt="Ana García" class="profile-photo">
+            <div class="photo-border"></div>
+            <div class="floating-card floating-card-one">
+              <span class="icon">✦</span>
+              <div>
+                <span class="float-label">Especialización</span>
+                <span class="float-value">UX/UI + Frontend</span>
+              </div>
+            </div>
+            <div class="floating-card floating-card-two">
+              <span class="status-dot"></span>
+              <span class="float-label">Disponible para proyectos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre-mi">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="section-kicker">Sobre mí</span>
+          <h2>Compromiso, estrategia y creatividad.</h2>
+          <p>
+            Me especializo en construir marcas y experiencias digitales con un enfoque claro:
+            comunicar valor, simplificar procesos y conectar con las personas.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon">01</div>
+            <h3>Diseño centrado en el usuario</h3>
+            <p>
+              Creo interfaces claras, intuitivas y visualmente atractivas que mejoran la percepción
+              de marca y la interacción digital.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">02</div>
+            <h3>Desarrollo frontend</h3>
+            <p>
+              Transformo diseños en sitios web responsivos, rápidos y accesibles con HTML, CSS,
+              JavaScript y experiencia de usuario moderna.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon">03</div>
+            <h3>Optimización de procesos</h3>
+            <p>
+              Ayudo a equipos y negocios a mejorar la presencia digital, la fidelidad
+              del cliente y la conversión a través de mejores experiencias.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experiencia">
+      <div class="container experience-grid">
+        <div class="section-heading left">
+          <span class="section-kicker">Experiencia</span>
+          <h2>Trayectoria profesional</h2>
+          <p>
+            He trabajado con marcas, startups y equipos multidisciplinarios para transformar ideas
+            en productos digitales con impacto real.
+          </p>
+          <a href="#contacto" class="btn btn-outline dark">Trabajemos juntos</a>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-date">2023 - Actual</span>
+            <div class="timeline-content">
+              <h3>Diseñadora Digital Senior</h3>
+              <p>
+                Lidero proyectos de branding, UX/UI y desarrollo de interfaces para productos
+                digitales orientados a la conversión.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <span class="timeline-date">2021 - 2023</span>
+            <div class="timeline-content">
+              <h3>Frontend Developer</h3>
+              <p>
+                Implementé soluciones web responsivas y experiencia de usuario con atención a
+                rendimiento, calidad y accesibilidad.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <span class="timeline-date">2019 - 2021</span>
+            <div class="timeline-content">
+              <h3>Especialista en UX/UI</h3>
+              <p>
+                Diseñé flujos, sistemas visuales y experiencias para plataformas
+                de e-commerce y servicios digitales.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="proyectos">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="section-kicker">Proyectos</span>
+          <h2>Casos destacados</h2>
+          <p>
+            Trabajo con una visión estratégica y visual para ofrecer experiencias que conectan
+            con la audiencia y mejoran los resultados del negocio.
+          </p>
+        </div>
+
+        <div class="project-controls">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="ux">UX/UI</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="branding">Branding</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card" data-category="ux web">
+            <div class="project-image project-one">
+              <span class="project-tag">UX/UI</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">UX/UI</span>
+              <h3>Plataforma de servicios digitales</h3>
+              <p>
+                Rediseño de plataforma con navegación clara, integración de contenido y
+                optimización para conversión.
+              </p>
+              <a href="#contacto" class="project-link">Ver más <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web">
+            <div class="project-image project-two">
+              <span class="project-tag">Web</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">Desarrollo Web</span>
+              <h3>Landing Experience</h3>
+              <p>
+                Sitio de lanzamiento para marca en crecimiento con estrategia de contenidos y
+                diseño visual directo.
+              </p>
+              <a href="#contacto" class="project-link">Ver más <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="branding">
+            <div class="project-image project-three">
+              <span class="project-tag">Branding</span>
+            </div>
+            <div class="project-content">
+              <span class="project-category">Branding</span>
+              <h3>Identidad visual corporativa</h3>
+              <p>
+                Creación de guía visual, arquitectura de marca y piezas para fortalecer
+                presencia en mercado digital.
+              </p>
+              <a href="#contacto" class="project-link">Ver más <span>→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicios">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="section-kicker">Servicios</span>
+          <h2>Cómo puedo ayudarte</h2>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <span class="service-icon">✎</span>
+            <h3>Diseño de interfaces</h3>
+            <p>Wireframes, prototipos, sistemas visuales y experiencia de usuario.</p>
+          </div>
+          <div class="service-card">
+            <span class="service-icon">⌘</span>
+            <h3>Desarrollo web</h3>
+            <p>Soluciones front-end responsivas, modernas y orientadas a resultados.</p>
+          </div>
+          <div class="service-card">
+            <span class="service-icon">✦</span>
+            <h3>Brand Strategy</h3>
+            <p>Identidad visual, presencia digital y estrategia de comunicación.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonial">
+      <div class="container testimonial-box">
+        <div class="quote-mark">“</div>
+        <div class="testimonial-content">
+          <p>
+            Ana combina una mirada estratégica con una ejecución visual impecable. Su trabajo
+            ayudó a clarificar nuestra propuesta y mejorar la experiencia de usuario en cada etapa.
+          </p>
+          <span class="testimonial-author">Cliente / Consultoría Digital</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <span class="section-kicker">Contacto</span>
+          <h2>¿Tienes un proyecto en mente?</h2>
+          <p>
+            Estoy disponible para colaborar en proyectos de diseño web, branding, UX/UI y
+            desarrollo de experiencias digitales con enfoque estratégico.
+          </p>
+
+          <div class="contact-list">
+            <div class="contact-item">
+              <span class="contact-icon">✉</span>
+              <span>hola@anagarcia.com</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">☎</span>
+              <span>+34 600 123 456</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">⌕</span>
+              <span>Madrid, España</span>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Dribbble">dr</a>
+            <a href="#" aria-label="Instagram">ig</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required placeholder="Tu nombre">
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required placeholder="tuemail@ejemplo.com">
+          </div>
+          <div class="form-group">
+            <label for="message">Proyecto</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Cuéntame sobre tu proyecto"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">Enviar mensaje</button>
+          <div class="form-message" id="formMessage"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <a class="brand footer-brand" href="#inicio">
+        <span class="brand-logo">AG</span>
+        <span class="brand-text">Ana García</span>
+      </a>
+      <p>© 2025 Ana García. Todos los derechos reservados.</p>
+      <div class="footer-links">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
